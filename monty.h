@@ -42,6 +42,7 @@ typedef struct instruction_s
  * @file: a pointer to a monty file
  * @line: the content for the input line
  * @arg: a value
+ * @fili: stack queue flag change
  * Description: the variables that carry values in the program
 */
 typedef struct montglb_s
