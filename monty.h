@@ -48,6 +48,7 @@ typedef struct montglb_s
 	char *line;
 	char *arg;
 	FILE *file;
+	int fili;
 } montglb_t;
 
 extern montglb_t montglb;
@@ -72,5 +73,8 @@ void mt_pstr(stack_t **stack, unsigned int line_number);
 stack_t *adnode(stack_t **stack, const int n);
 int is_digit(char *s);
 void stack_free(stack_t *stack);
+
+void mt_rotl(stack_t **stack, __attribute__((unused)) unsigned int line_number);
+void mt_rotr(stack_t **stack, __attribute__((unused)) unsigned int line_number);
 
 #endif /*MONTY_H*/

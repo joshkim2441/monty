@@ -78,3 +78,16 @@ void mt_pstr(stack_t **stack, unsigned int line_number)
 	}
 	printf("\n");
 }
+
+/**
+ * mt_stack - function to print the top
+ * @stack: the stack head
+ * @line_number: the line number
+ * Return: none
+*/
+void mt_stack(stack_t **stack, unsigned int line_number)
+{
+	(void)stack;
+	(void)line_number;
+	montglb.fili = 0;
+}
