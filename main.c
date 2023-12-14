@@ -28,5 +28,5 @@ int main(int argc, char *argv[])
 	fclose(montglb.file);
 	free(montglb.line);
 	stack_free(stack);
-	exit(EXIT_FAILURE);
+	exit(EXIT_SUCCESS);
 }
