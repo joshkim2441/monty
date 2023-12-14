@@ -11,7 +11,7 @@
 
 /**
  * struct stack_s - doubly linked list representation of stack or queue
- * @h: integer
+ * @n: integer
  * @prev: pointer to previous element of stack or queue
  * @next: pointer to next element of stack or queue
  * Description: a doubly linked list node structure for a stack,
@@ -74,7 +74,7 @@ stack_t *adnode(stack_t **stack, const int n);
 int is_digit(char *s);
 void stack_free(stack_t *stack);
 
-void mt_rotl(stack_t **stack, __attribute__((unused)) unsigned int line_number);
-void mt_rotr(stack_t **stack, __attribute__((unused)) unsigned int line_number);
+void mt_rotl(stack_t **, __attribute__((unused)) unsigned int);
+void mt_rotr(stack_t **, __attribute__((unused)) unsigned int);
 
 #endif /*MONTY_H*/
