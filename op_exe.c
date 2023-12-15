@@ -57,7 +57,7 @@ void opcode_exe(char *opcode, stack_t **stack, unsigned int line_number)
 		}
 	}
 
-	fprintf(stderr, "L%d: Unknown instruction %s\n", line_number, opcode);
+	fprintf(stderr, "L%d: unknown instruction %s\n", line_number, opcode);
 	stack_free(*stack);
 	fclose(montglb.file);
 	free(montglb.line);

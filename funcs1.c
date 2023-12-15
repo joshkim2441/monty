@@ -67,7 +67,7 @@ void mt_queue(stack_t **stack, unsigned int line_number)
 
 /**
  * que_add - function to add a node to the stack tail
- * @new_val: the new node
+ * @n: the new node
  * @stack: the stack head
  * Return: none
 */
