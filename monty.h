@@ -50,7 +50,7 @@ typedef struct montglb_s
 	char *line;
 	char *arg;
 	FILE *file;
-	int fili;
+	int lifo;
 } montglb_t;
 
 extern montglb_t montglb;
@@ -76,8 +76,8 @@ stack_t *adnode(stack_t **stack, const int n);
 int is_digit(char *s);
 void stack_free(stack_t *stack);
 
-void mt_rotl(stack_t **stack, unsigned int);
-void mt_rotr(stack_t **stack, unsigned int);
+void mt_rotl(stack_t **, __attribute__((unused)) unsigned int);
+void mt_rotr(stack_t **, __attribute__((unused)) unsigned int);
 void mt_queue(stack_t **stack, unsigned int line_number);
 void que_add(stack_t **stack, int n);
 void mt_stack(stack_t **stack, unsigned int line_number);
