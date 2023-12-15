@@ -89,5 +89,5 @@ void mt_stack(stack_t **stack, unsigned int line_number)
 {
 	(void)stack;
 	(void)line_number;
-	montglb.fili = 0;
+	montglb.lifo = 0;
 }
