@@ -1,6 +1,5 @@
 #include "monty.h"
-
-/*montglb_t montglb;*/
+montglb_t montglb;
 
 /**
  * main - monty program entry point
